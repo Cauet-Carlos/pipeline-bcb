@@ -1,0 +1,19 @@
+# Ambiente virtual
+.venv/
+
+# Segredos: nunca versionar
+.env
+
+# Dados gerados pelo pipeline
+data/raw/*
+!data/raw/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
